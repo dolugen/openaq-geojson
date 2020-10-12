@@ -9,6 +9,6 @@ def client():
 
 
 def test_hello(client):
-    response = client.get('/')
+    response = client.get('/echo-args?key=value&foo=bar')
     assert response.status_code
-    assert response.data == b'Hello, World!'
+    assert response.data == b'{"key":"value","foo":"bar"}\n'
