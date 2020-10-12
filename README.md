@@ -1,13 +1,6 @@
-# Flask Starter App
+# openaq-geojson
 
-A barebones Flask app, which can easily be deployed to Heroku.
-
-This is a template repository, you can [generate your own](https://github.com/dolugen/flask-starter/generate) from this.
-
-Adapted from [heroku/python-getting-started](https://github.com/heroku/python-getting-started).
-
-
-![Heroku and Flask](header.png)
+A proxy app that returns OpenAQ API Locations data as GeoJSON. TBH, this functionality should be added to [openaq-api](https://github.com/openaq/openaq-api) at some point.
 
 ## Running Locally
 
